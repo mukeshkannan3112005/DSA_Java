@@ -1,3 +1,6 @@
+https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/
+//time complexity: O(n) where n is the number of nodes in the linked list
+//space complexity: O(1) we are not using any extra space we are just using a few variables to keep track of the nodes and the GCD value
 /**
  * Definition for singly-linked list.
  * public class ListNode {
