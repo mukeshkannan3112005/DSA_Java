@@ -1,5 +1,8 @@
 //finding the order of my friends from the finish order
-class Solution {
+//https://leetcode.com/problems/restore-the-finishing-order/description/
+// time complexity:O(n^2) because we are using two nested loops to find the finishing order of my friends
+// space complexity:O(n) because we are using an extra array to store the finishing order of my friends
+class Restore_finishing_order {
     public int[] recoverOrder(int[] order, int[] friends) {
         int[] finishingOrder = new int[friends.length];
         int k = 0;

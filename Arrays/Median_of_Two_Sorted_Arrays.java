@@ -1,4 +1,7 @@
-class Solution {
+//https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+// time complexity:O(m+n) because we are merging two sorted arrays
+// space complexity:O(m+n) because we are using an extra array to store the merged array
+class Median_of_Two_Sorted_Arrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n=nums1.length;
         int m=nums2.length;

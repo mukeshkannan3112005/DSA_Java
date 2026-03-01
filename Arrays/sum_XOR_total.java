@@ -1,3 +1,6 @@
+//https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/
+// time complexity:O(n) because we are traversing the array once to find the bitwise OR of all numbers
+// space complexity:O(1) because we are not using any extra space we are just
 class Solution {
 
     // This method returns the sum of XOR values of all subsets

@@ -1,17 +1,16 @@
-https://leetcode.com/problems/merge-two-sorted-lists/description/
+//https://leetcode.com/problems/merge-two-sorted-lists/description/
 //time complexity: O(n+m) where n and m are the length of the two lists
 //space complexity: O(1) we are not using any extra space we are just changing the pointers of the existing nodes 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+
+class Merge_two_sorted_list {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode result=new ListNode();
         ListNode temp=result;

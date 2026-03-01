@@ -1,4 +1,6 @@
-https://leetcode.com/problems/number-of-employees-who-met-the-target/description/
+//https://leetcode.com/problems/number-of-employees-who-met-the-target/description/
+// time complexity:O(n)
+// space complexity:O(1)
 class Solution {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int result=0;

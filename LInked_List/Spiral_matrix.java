@@ -1,17 +1,15 @@
 //https://leetcode.com/problems/spiral-matrix-iv/description/
 //time complexity:O(m*n)
 //space complexity:O(m*n)
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
+import java.util.*;
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+class Spiral_matrix {
     public int[][] spiralMatrix(int rows, int columns, ListNode head) {
         int[][] matrix = new int[rows][];
         for (int i = 0; i < rows; i++) {

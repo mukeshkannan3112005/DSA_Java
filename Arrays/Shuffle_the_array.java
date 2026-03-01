@@ -1,5 +1,7 @@
 //problem link: https://leetcode.com/problems/shuffle-the-array/description/
-class Solution {
+// time complexity:O(n) because we are traversing the array once
+// space complexity:O(n) because we are using an extra array to store the result
+class Shuffle_the_array {
     public int[] shuffle(int[] nums, int n) {
         int[] result=new int[2*n];
         int k=0,j=n;

@@ -1,5 +1,8 @@
 //https://leetcode.com/problems/happy-number/description/
-class Solution {
+// time complexity:O(log n) because we are finding the sum of square of digits and the number of digits in n is log n
+// space complexity:O(n) because we are using a set to store the value of n
+import java.util.*;
+class Happy_number {
     public boolean isHappy(int n) {
         HashSet <Integer> cycle=new HashSet<>(); //created a set to trace the value if there is any cycle
         while(n!=1)

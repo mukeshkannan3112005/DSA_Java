@@ -1,5 +1,9 @@
 //the two sneaky numbers of digitville problem
-class Solution {
+//https://leetcode.com/problems/two-sneaky-numbers-of-digitville/description/
+// time complexity:O(n) because we are traversing the array once to store the elements in hashmap and once to find the sneaky numbers
+// space complexity:O(n) because we are using a hashmap to store the elements of the array and an array to store the sneaky numbers
+import java.util.HashMap;
+class  two_sneaky_problem {
     public int[] getSneakyNumbers(int[] nums) {
         HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
         int[] sneaky_nums=new int[2];

@@ -1,4 +1,7 @@
-https://leetcode.com/problems/count-pairs-with-sum-less-than-target/description/
+//https://leetcode.com/problems/count-pairs-with-sum-less-than-target/description/
+// time complexity:O(n^2)
+// space complexity:O(1)
+import java.util.*;
 class Solution {
     public int countPairs(List<Integer> nums, int target) {
         int result=0;

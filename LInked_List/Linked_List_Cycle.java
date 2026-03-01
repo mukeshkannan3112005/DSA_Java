@@ -1,18 +1,14 @@
 //http://leetcode.com/problems/linked-list-cycle/
 //time complexity: O(n)
 //space complexity: O(1)
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-public class Solution {
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+public class Linked_List_Cycle {
     public boolean hasCycle(ListNode head) {
         ListNode slow=head; //slow pointer moves one step at a time
         ListNode fast=head; //fast pointer moves two steps at a time

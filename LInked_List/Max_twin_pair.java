@@ -1,17 +1,14 @@
 //http:leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/
 //time complexity:O(n)
 //space complexity:O(1)
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+class Max_twin_pair {
     public int pairSum(ListNode head) {
         ListNode slow=head;
         ListNode fast=head;

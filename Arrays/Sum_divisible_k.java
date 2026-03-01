@@ -1,5 +1,8 @@
 //To find sum of the array and reduce the array elements to get the sum which is divisible by k.
-class Solution {
+//https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/
+// time complexity:O(n) because we are traversing the array once
+// space complexity:O(1) because we are not using any extra space we are just modifying the input array
+class Sum_divisible_k {
     public int minOperations(int[] nums, int k) {
         //find sum for elements of the array
         int sum=0;

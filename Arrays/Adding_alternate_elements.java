@@ -1,5 +1,8 @@
+//https://leetcode.com/problems/find-the-alternating-sum-of-an-array/description
+// time complexity:O(n)
+// space complexity:O(1)
 // Compute alternating sum problem
-class Solution {
+class Adding_alternate_elements {
     public int alternatingSum(int[] nums) {
         int sum=0;
         if(nums.length==1) // if array contains only one element

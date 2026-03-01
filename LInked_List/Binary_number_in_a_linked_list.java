@@ -1,17 +1,14 @@
 //http:leetcode.com/problems/binary-number-in-a-linked-list/description/
 //time complexity:O(n)
 //space complexity:O(1)
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+class Binary_number_in_a_linked_list {
     public int getDecimalValue(ListNode head) {
         int length=0;
         ListNode temp=head;

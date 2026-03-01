@@ -1,4 +1,7 @@
-class Solution {
+//https://leetcode.com/problems/search-insert-position/description/
+// time complexity:O(log n) because we are using binary search to find the position of the key in the array
+// space complexity:O(1) because we are not using any extra space we are just using two variables to keep track of the left and right pointers
+class Search_insert_order {
     public int searchInsert(int[] arr, int key) {
         int low = 0;     //left element
         int high = arr.length - 1; //right element
@@ -21,9 +24,9 @@ class Solution {
         
     }
 }
-
+/* 
 //recursive solution
-class Solution {
+class Search_insert_order_recursive {
     public int searchInsert(int[] arr, int key) {
        return binarySearch(arr,0,arr.length-1,key);
         
@@ -45,3 +48,4 @@ class Solution {
         return high+1;
     }
 }
+*/

@@ -1,5 +1,8 @@
-https://leetcode.com/problems/left-and-right-sum-differences/description/
-class Solution {
+//https://leetcode.com/problems/left-and-right-sum-differences/description/
+// time complexity:O(n) because we are traversing the array three times
+// space complexity:O(n) because we are using two arrays to store the left and right sum of the array
+
+class Left_right_sum_difference {
     public int[] leftRightDifference(int[] nums) {
         int[] left_arr=new int[nums.length];
         int[] right_arr=new int[nums.length];

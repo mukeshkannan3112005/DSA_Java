@@ -1,14 +1,15 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
+
+//https://leetcode.com/problems/merge-nodes-in-between-0s/description/
+//time complexity:O(n) because we are traversing the linked list once
+//space complexity:O(1) because we are not using any extra space we are just modifying the input linked list
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+class Add_value_inbetween_0s {
     public ListNode mergeNodes(ListNode head) {
         ListNode temp=head;
         ListNode dummy=head;

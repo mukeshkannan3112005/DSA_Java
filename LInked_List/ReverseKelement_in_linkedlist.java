@@ -1,7 +1,14 @@
 //https://leetcode.com/problems/reverse-nodes-in-k-group/description/
 //time complexity:O(n)
 //space complexity:O(1)
-class Solution {
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+class ReverseKelement_in_linkedlist {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null) return null;
 
