@@ -1,3 +1,6 @@
+//https://leetcode.com/problems/set-mismatch/description/
+//time complexity:O(n)
+//space complexity:O(n)
 import java.util.HashSet;
 class  Set_Mistake {
     public int[] findErrorNums(int[] nums) {
