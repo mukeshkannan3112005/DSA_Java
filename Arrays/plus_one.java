@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/plus-one/description/
 // time complexity:O(n) because we are traversing the array once
 // space complexity:O(1) because we are not using any extra space we are just modifying the input array
-class Solution {
+class Plus_one {
     public int[] plusOne(int[] digits) {
         int i;
         for(i=digits.length-1;i>=0;i--)
