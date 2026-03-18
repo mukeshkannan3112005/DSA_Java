@@ -1,3 +1,6 @@
+//https://leetcode.com/problems/contains-duplicate-ii/description/
+//Time Complexity: O(n) because we are traversing the array once
+//Space Complexity: O(k) because we are using a HashSet to store at most k elements
 import java.util.HashSet;
 import java.util.Set;
 
