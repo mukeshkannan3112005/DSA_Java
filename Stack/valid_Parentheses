@@ -1,0 +1,36 @@
+//https://leetcode.com/problems/valid-parentheses/description/
+//Time Complexity: O(n)
+//Space Complexity: O(n)
+package Strings;
+class valid_Parentheses {
+    public boolean isValid(String s) {
+        int n=s.length();
+        if(n%2!=0) return false;
+        char stack[]=new char[n];
+        int top=-1;
+        for(int i=0;i<n;i++)
+        {
+            char c=s.charAt(i);
+            //If the character is an opening bracket, push it onto the stack
+            if(c=='(' || c=='{' || c=='[')
+            {
+                stack[++top]=c;
+            }
+            //If the character is a closing bracket, check if it matches the top of the stack
+            else
+            {
+                if(top==-1) return false;
+                char l=stack[top--];
+                if(l=='(' && c!=')') return false;
+                if(l=='{' && c!='}') return false;
+                if(l=='[' && c!=']') return false;
+            }
+        }
+        //If the stack is empty at the end, all parentheses are valid
+        if(top==-1)
+        {
+            return true;
+        }
+        return false;
+    }
+}
