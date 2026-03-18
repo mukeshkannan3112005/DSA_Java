@@ -1,7 +1,6 @@
 //https://leetcode.com/problems/valid-parentheses/description/
 //Time Complexity: O(n)
 //Space Complexity: O(n)
-package Strings;
 class valid_Parentheses {
     public boolean isValid(String s) {
         int n=s.length();
