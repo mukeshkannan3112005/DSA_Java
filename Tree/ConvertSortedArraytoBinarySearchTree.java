@@ -1,4 +1,4 @@
-package Tree;
+
 //https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 // time complexity: O(n) because we are visiting each node of the tree once to construct
 //  space complexity: O(log n) because the height of the tree is log n in the best case (balanced tree) and we are using recursion which takes O(log n) space in the call stack.
